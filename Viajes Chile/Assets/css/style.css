@@ -25,3 +25,9 @@ footer, .fondo {
   margin-left: 70px;
   margin-right: 70px;
 }
+.esp {
+  padding: 25px;
+}
+html {
+  scroll-behavior: smooth;
+}
