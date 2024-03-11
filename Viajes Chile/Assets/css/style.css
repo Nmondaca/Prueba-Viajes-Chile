@@ -12,8 +12,16 @@ footer, .fondo {
     background-color: skyblue;
     color: #fff;
 }
-nav {
-  background-color: transparent;
-  position: fixed;
-  z-index: 2;
+
+.titulos {
+  text-align: center;
+  padding: 20px;
+}
+.card img {
+  height: 160px;  
+}
+
+.margenes {
+  margin-left: 70px;
+  margin-right: 70px;
 }
