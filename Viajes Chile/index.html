@@ -4,30 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d59b7bde35.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
     crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d59b7bde35.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="Assets/js/index.js">
 </head>
 <body class="letra">
+
     <header>
-        <div>
-            <nav>
-                <h5>VIAJES CHILE</h5>
-            </nav>
-            <p>carrusel</p>
+      <nav class="navbar bg-transparent fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand letra" href="#">
+            <img src="Assets/img/viajes.svg" alt="" width="30">
+            Viajes Chile
+          </a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link letra" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="#">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="#">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="#">Contacto</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Assets/img/carousel1.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/img/carousel2.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/img/carousel3.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+      </div>
     </header>
 
     <section>
-
         <div>
-            <h4>¿QUIENES SOMOS</h4>
+            <h4>¿QUIENES SOMOS?</h4>
             <i class="fa-solid fa-plane"></i>
             <p>Lorem ipsum</p>
             <i class="fa-solid fa-mountain"></i>

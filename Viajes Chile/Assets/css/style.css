@@ -12,3 +12,8 @@ footer, .fondo {
     background-color: skyblue;
     color: #fff;
 }
+nav {
+  background-color: transparent;
+  position: fixed;
+  z-index: 2;
+}
